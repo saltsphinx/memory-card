@@ -16,7 +16,7 @@ export default function Game() {
     Promise.all(cardPromiseArray).then((results) => {
       setCardInfoArr(results);
     });
-  });
+  }, []);
 
   if (cardInfoArr.length == 0) {
     return <p>Loading...</p>;
