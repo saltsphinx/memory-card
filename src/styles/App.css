@@ -1,0 +1,94 @@
+:root {
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url("../../public/bg-img.jpg");
+  background-size: cover;
+  background-position: center;
+  user-select: none;
+}
+
+h1,
+h2,
+p {
+  color: #e0e7ee;
+}
+
+a:link,
+a:visited {
+  color: #e0e7ee
+}
+
+body,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+footer > p {
+  user-select: all;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+}
+
+.card,
+.card > img,
+.card-container {
+  border-radius: 12px;
+}
+
+.card-container {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(6, 1fr);
+  gap: 0.5rem;
+  padding: 2rem;
+  background-color: #00002e;
+}
+
+.card {
+  padding: 0.5rem;
+  border: 0;
+  background: 	#000043;
+}
+
+.card:hover {
+  background: 	#111154;
+}
+
+.card:active {
+  background: 	#000043;
+}
+
+.card > img {
+  max-height: 246px;
+  max-width: 246px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+
+.score-display {
+  background-color: #00002e;
+  padding: 0 16rem;
+  padding-bottom: 0.5rem;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  text-align: center;
+}
+
+.score-display > p {
+  margin: 0;
+}
+
+.score-display > p > .small {
+  vertical-align: top;
+}
+
+.score-display > p > .score {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
