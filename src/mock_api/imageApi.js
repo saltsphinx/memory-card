@@ -8,12 +8,12 @@ export default function imageApi(id) {
       src: path + id + '.jpg',
     };
 
-    setTimeout(() => resolve(imgObj), 3500);
+    setTimeout(() => resolve(imgObj), 1000);
   });
 }
 
 function capitalize(string) {
-  const splitString = string.split('');
+  const splitString = string.replace(/[A-Z]/, ' $&').split('');
   splitString[0] = splitString[0].toUpperCase();
 
   return splitString.join('');
