@@ -2,10 +2,12 @@ export default function ScoreDisplay({ currentScore, bestScore }) {
   return (
     <div className="score-display">
       <p>
-        Current Score: <span>{currentScore} / 12</span>
+        <span className="small">Current Score: </span>{' '}
+        <span className="score">{currentScore} / 12</span>
       </p>
       <p>
-        Best score: <span>{bestScore}</span>
+        <span className="small">Best Score: </span>{' '}
+        <span className="score">{bestScore}</span>
       </p>
     </div>
   );
