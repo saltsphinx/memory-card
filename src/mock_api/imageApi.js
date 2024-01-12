@@ -8,7 +8,7 @@ export default function imageApi(id) {
       src: path + id + '.jpg',
     };
 
-    setTimeout(() => resolve(imgObj), 1500);
+    setTimeout(() => resolve(imgObj), 3500);
   });
 }
 
