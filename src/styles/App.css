@@ -29,7 +29,7 @@ footer > p {
   user-select: all;
 }
 
-#root {
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
