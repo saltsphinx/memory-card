@@ -7,7 +7,7 @@ export default function imageApi(id) {
     const imgObj = {
       id,
       name: handleName(id),
-      src: path + id + '.jpg',
+      src: './' + id + '.jpg',
     };
 
     setTimeout(() => resolve(imgObj), 1000);
