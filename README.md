@@ -1,5 +1,7 @@
 Project provided by [The Odin Project](https://www.theodinproject.com/lessons/node-path-react-new-memory-card). It puts the learners recent knowledge of the useEffect and useState react hooks to the test by having them build a memory card game. Make a game where users must memorize each card they pick amoung 12, which are rearranged every card pick. A score is kept of the current correct cards, and of the users best score.
 
+# [Live Deployment at Vercel](https://memory-card-snowy-eight.vercel.app/)
+
 ## Project Assignment
 1. Create a new React Project.
 
